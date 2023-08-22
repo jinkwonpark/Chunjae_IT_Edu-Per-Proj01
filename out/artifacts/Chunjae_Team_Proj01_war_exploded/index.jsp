@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> CORN EDU </title>
+  <title> WHALE EDU </title>
   <%@ include file="/setting/head.jsp"%>
   <style>
     <!-- link 이동 목록 -->
