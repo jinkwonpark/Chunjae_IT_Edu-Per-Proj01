@@ -9,7 +9,7 @@
 .tnb_wrap {
     clear: both;
     width: 100%;
-    background-color: #8CB964;
+    background-color: #81b2d5;
 }
 
 .hd_wrap {
@@ -82,7 +82,7 @@
     width: 1080px;
     height: 0px;
     position: absolute;
-    left: 50%;
+    left: 70%;
     margin-left: -540px;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .gnb .menu li:hover a.dp1 {
-    color: #FACA00;
+    color: #009afa;
     font-weight: bold;
 }
 
@@ -160,5 +160,5 @@
 }
 
 .gnb .menu li .sub li:hover a {
-    border-bottom: 3px solid #FACA00;
+    border-bottom: 3px solid #0075fa;
 }

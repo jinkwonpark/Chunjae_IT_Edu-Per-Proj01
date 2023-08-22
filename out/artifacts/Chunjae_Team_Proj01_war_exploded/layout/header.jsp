@@ -23,12 +23,12 @@
 </div>
 <div class="hd_wrap">
     <a href="/" class="logo">
-        <img src="<%=path8%>/images/corn_edu_400-256.png" alt="CORN EDU 로고 타입">
+        <img src="<%=path8%>/images/whale_460-164.png" alt="WHALE EDU 로고 타입">
     </a>
     <nav class="gnb">
         <ul class="menu">
             <li class="item1">
-                <a href="" class="dp1"> 소 2개 </a>
+                <a href="" class="dp1"> 소 개 </a>
                 <ul class="sub">
                     <li><a href="<%=path8 %>/intro/intro.jsp"> 회사 소개 </a></li>
                     <li><a href="<%=path8 %>/intro/serviceIntro.jsp"> 서비스 소개 </a></li>
@@ -36,34 +36,21 @@
                 </ul>
             </li>
             <li class="item2">
-                <a href="" class="dp1"> 초 등 </a>
+                <a href="" class="dp1"> 학교 공부 </a>
                 <ul class="sub">
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=초등"> 강의 소개 </a></li>
-                    <li><a href="<%=path8%>/bookInfo/elmBookInfo.jsp"> 교재 소개 </a></li>
+                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=초등"> 초등 </a></li>
+                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=중등"> 중등 </a></li>
+                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=고등"> 고등 </a></li>
                 </ul>
             </li>
             <li class="item3">
-                <a href="" class="dp1"> 중 등 </a>
-                <ul class="sub">
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=중등"> 강의 소개 </a></li>
-                    <li><a href="<%=path8%>/bookInfo/middleBookInfo.jsp"> 교재 소개 </a></li>
-                </ul>
-            </li>
-            <li class="item4">
-                <a href="" class="dp1"> 고 등 </a>
-                <ul class="sub">
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=고등"> 강의 소개 </a></li>
-                    <li><a href="<%=path8%>/bookInfo/highBookInfo.jsp"> 교재 소개 </a></li>
-                </ul>
-            </li>
-            <li class="item5">
                 <a href="" class="dp1"> 커뮤니티 </a>
                 <ul class="sub">
                     <li><a href="<%=path8 %>/board/studentboard/StudentBoardList.jsp?page=1"> 학생 커뮤니티 </a></li>
                     <li><a href="<%=path8 %>/board/motherboard/MotherBoardList.jsp?page=1"> 학부모 커뮤니티 </a></li>
                 </ul>
             </li>
-            <li class="item6">
+            <li class="item4">
                 <a href="" class="dp1"> 고객지원 </a>
                 <ul class="sub">
                     <li><a href="<%=path8%>/cs/board/boardList.jsp?page=1"> 공지사항 </a></li>

@@ -82,8 +82,8 @@ a {
     width: 90%;
     height: 100%;
     border-radius: 10px;
-    background-color: #8CB964;
-    border: 1px solid #8CB964;
+    background-color: #72a8c0;
+    border: 1px solid #72a8c0;
     color: #fff;
     cursor: pointer;
 }
@@ -163,8 +163,8 @@ a {
 }
 
 .board_page a.num.on {
-    border-color: #8CB964;
-    background: #8CB964;
+    border-color: #72a8c0;
+    background: #72a8c0;
     color: #fff;
 }
 

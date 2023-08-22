@@ -71,7 +71,7 @@
 
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #8CB964; color:#fff; font-size: 18px; }
+            line-height: 48px; background-color: #81b2d5; color:#fff; font-size: 18px; }
         .btn_group:after { content:""; display:block; width:100%; clear: both; }
         .btn_group p {text-align: center;   line-height:3.6; }
     </style>

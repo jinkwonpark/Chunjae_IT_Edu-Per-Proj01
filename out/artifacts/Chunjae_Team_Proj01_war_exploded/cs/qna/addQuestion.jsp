@@ -62,7 +62,7 @@
         .tb1 { width:800px; margin:50px auto; }
         .tb1 th { width:150px; line-height:32px; padding-top:8px; padding-bottom:8px;
             border-top:1px solid #333; border-bottom:1px solid #333;
-            background-color:#8CB964; color:#fff; vertical-align:top;}
+            background-color:#81b2d5; color:#fff; vertical-align:top;}
         .tb1 td { width:650px; line-height:32px; padding-top:8px; padding-bottom:8px;
             border-bottom:1px solid #333;
             padding-left: 14px; border-top:1px solid #333; }
@@ -72,7 +72,7 @@
         .indata2 { width: 600px; padding: 14px; font-size:18px; }
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #8CB964; color:#fff; font-size: 18px; }
+            line-height: 48px; background-color: #81b2d5; color:#fff; font-size: 18px; }
         .inbtn:first-child { float:left; }
         .inbtn:last-child { float:right; }
         textarea {

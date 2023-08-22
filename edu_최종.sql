@@ -1,9 +1,9 @@
-CREATE DATABASE cornedu;
+CREATE DATABASE whaleedu;
 
 -- 윈도우 노트북 안될 때 사용
-ALTER DATABASE cornedu DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER DATABASE whaleedu DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE cornedu;
+USE whaleedu;
 
 -- per에는 관리자, 학생, 학부모만 INSERT 가능
 CREATE TABLE member(
@@ -19,8 +19,8 @@ CREATE TABLE member(
 
 INSERT INTO member(id, pw, NAME, email, tel, per)
 VALUES('admin','1234', '관리자', 'admin@edu.com', '010-1004-1004', 0);
-INSERT INTO member(id, pw, NAME, email, tel, per)motherboard
-    VALUES('kimhk','9876', '김현경', 'kimhk@edu.com', '010-1234-5678', 1);
+INSERT INTO member(id, pw, NAME, email, tel, per)
+VALUES('kimhk','9876', '김현경', 'kimhk@edu.com', '010-1234-5678', 1);
 INSERT INTO member(id, pw, NAME, email, tel, per)
 VALUES('kimbk','1111', '김보경', 'kimbk@edu.com', '010-8765-4321', 1);
 INSERT INTO member(id, pw, NAME, email, tel, per)
@@ -83,7 +83,7 @@ CREATE TABLE motherboard(
                             content VARCHAR(1000),
                             author VARCHAR(16),
                             resdate TIMESTAMP NOT NULL default CURRENT_TIMESTAMP,
-                            cnt INT DEFAULT 0
+                            cnt INT DEFAULT 0,
                             FOREIGN KEY(author) REFERENCES member(id) ON DELETE CASCADE);
 
 -- motherboard JOIN & VIEW 생성 ( 내가 쓴 글에 이용)
@@ -168,7 +168,7 @@ CREATE TABLE studentboard(
                              content VARCHAR(1000),
                              author VARCHAR(16),
                              resdate TIMESTAMP NOT NULL default CURRENT_TIMESTAMP,
-                             cnt INT DEFAULT 0
+                             cnt INT DEFAULT 0,
                              FOREIGN KEY(author) REFERENCES member(id) ON DELETE CASCADE);
 
 
@@ -218,8 +218,7 @@ CREATE TABLE qna(
                     cnt INT DEFAULT 0,
                     lev INT DEFAULT 0,		-- 질문(0), 답변(1)
                     par INT,						-- 부모 글번호 -> 질문(자신 레코드의 qno), 답변(질문의 글번호)
-                    FOREIGN KEY(author) REFERENCES member(id) ON DELETE CASCADE
-);
+                    FOREIGN KEY(author) REFERENCES member(id) ON DELETE CASCADE);
 
 DESC qna;
 
@@ -274,7 +273,7 @@ FROM qna a, member b WHERE a.author=b.id ORDER BY a.par DESC, a.lev ASC, a.qno A
 
 -- qna JOIN & VIEW 생성 ( 내가 쓴 글에 이용)
 CREATE VIEW qnalist2 AS (SELECT a.qno AS qno, a.title AS title, a.content AS content, a.author AS author, a.resdate AS resdate, a.cnt AS cnt, a.lev AS lev,
-                         a.par AS par, b.id AS idFROM qna a, member b WHERE a.author=b.id ORDER BY a.par DESC, a.lev ASC, a.qno ASC);
+                         a.par AS par, b.id AS id FROM qna a, member b WHERE a.author=b.id ORDER BY a.par DESC, a.lev ASC, a.qno ASC);
 SELECT * FROM qnalist2;
 
 
@@ -285,8 +284,7 @@ CREATE TABLE faq (
                      fno INT PRIMARY KEY AUTO_INCREMENT,
                      question VARCHAR(1000) NOT NULL,
                      answer VARCHAR(1000) NOT NULL,
-                     cnt INT DEFAULT 0 NOT NULL
-);
+                     cnt INT DEFAULT 0 NOT NULL);
 
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다1', '답변입니다1');
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다2', '답변입니다2');
@@ -304,8 +302,7 @@ CREATE table boardComment (
                               author VARCHAR(16),
                               resdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
                               content VARCHAR(200),
-                              FOREIGN KEY(bno) REFERENCES board(bno) on DELETE CASCADE
-);
+                              FOREIGN KEY(bno) REFERENCES board(bno) on DELETE CASCADE);
 
 SELECT * FROM boardComment;
 
@@ -317,8 +314,7 @@ create table motherComment(
                               author VARCHAR(16),
                               resdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
                               content VARCHAR(200),
-                              FOREIGN KEY(bno) REFERENCES motherboard(bno) ON DELETE CASCADE
-);
+                              FOREIGN KEY(bno) REFERENCES motherboard(bno) ON DELETE CASCADE);
 
 SELECT * FROM mothercomment;
 
@@ -330,8 +326,7 @@ create table studentComment(
                                author VARCHAR(16),
                                resdate TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
                                content VARCHAR(200),
-                               FOREIGN KEY(bno) REFERENCES studentboard(bno) ON DELETE CASCADE
-);
+                               FOREIGN KEY(bno) REFERENCES studentboard(bno) ON DELETE CASCADE);
 
 -- 더미 데이터 추가
 INSERT INTO studentComment(bno, author, content)
@@ -353,8 +348,7 @@ CREATE TABLE lecture(
                         teacher VARCHAR(10) NOT NULL,
                         content VARCHAR(500),
                         filePath VARCHAR(200),
-                        target VARCHAR(10) CHECK(target IN('초등','중등','고등'))
-);
+                        target VARCHAR(10) CHECK(target IN('초등','중등','고등')));
 
 -- 초등 강의 더미데이터 5건
 INSERT INTO lecture(lectureName, teacher, content, filePath, target)
@@ -403,8 +397,7 @@ CREATE TABLE lectureInfo(
                             vTitle VARCHAR(500) NOT NULL,
                             filePath VARCHAR(200) NOT NULL,
                             duration VARCHAR(100) NOT NULL,
-                            FOREIGN KEY(vno) REFERENCES lecture(lno) ON DELETE CASCADE
-);
+                            FOREIGN KEY(lno) REFERENCES lecture(lno) ON DELETE CASCADE);
 
 -- 중등 강의 추가
 INSERT INTO lectureInfo(lno, vTitle, filePath, duration)
