@@ -97,8 +97,8 @@
             height: 100%;
             border-radius: 30px;
             margin-top: 20px;
-            background-color: #8CB964;
-            border: #8CB964;
+            background-color: #81b2d5;
+            border: #81b2d5;
             color: #fff;
             font-weight: bold;
         }

@@ -219,7 +219,7 @@
             width: 100%;
             height: 100%;
             border-radius: 5px;
-            background-color: #8CB964;
+            background-color: #81b2d5;
         }
 
         .comment_detail .comment_list {

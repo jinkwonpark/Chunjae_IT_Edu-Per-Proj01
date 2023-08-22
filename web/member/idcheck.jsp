@@ -8,7 +8,7 @@
 
     <style>
         label {
-            color: #8CB964;
+            color: #81b2d5;
             font-weight: 600;
         }
         input[type=text] {
@@ -19,7 +19,7 @@
         }
         input[type=submit] {
             color: #fff;
-            background-color: #8CB964;
+            background-color: #81b2d5;
             border-radius: 6px;
             float: right;
             margin-top: 10px;

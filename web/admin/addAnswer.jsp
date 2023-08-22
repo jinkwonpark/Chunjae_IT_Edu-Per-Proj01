@@ -79,7 +79,7 @@
         }
         .tb1 .label {
             width: 10%;
-            background-color: #8CB964;
+            background-color: #81b2d5;
             color: #fff;
         }
         .tb1 .label + td {
@@ -98,7 +98,7 @@
         .tb2 tr td:first-child {
             width: 10%;
             height: 55px;
-            background-color: #8CB964;
+            background-color: #81b2d5;
             color: #fff;
         }
         .tb2 tr:last-child td {
@@ -140,7 +140,7 @@
             font-weight: bold;
             font-size: 15px;
             line-height: 48px;
-            background-color: #8CB964;
+            background-color: #81b2d5;
             color:#fff;
             margin: 50px 0px 100px 0px;
         }

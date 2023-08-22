@@ -5,7 +5,7 @@
 button { background-color:transparent; outline:0; border:0; }
 #video { display:block;  position:absolute; width: 100%; height: 100%; }
 #progress { height:10px; width:640px; position:relative; margin-top:10px; border-radius:6px; background:#333; overflow:hidden; }
-#progressBar { width: 0px; height: 10px; background-color: #8CB964; position: fixed; left: 0; bottom: 70px; transition: 1s; }
+#progressBar { width: 0px; height: 10px; background-color: #81b2d5; position: fixed; left: 0; bottom: 70px; transition: 1s; }
 #buttonbar { position: fixed; left: 0; bottom: 0; height: 70px; padding: 3px; background: #333; width: 100%; box-sizing: border-box; }
 .player_btn, #buttonbar input { display:inline-block; cursor:pointer; }
 #play { display: none; color: #fff; font-size: 15px; line-height: 70px; position: fixed; left: 20px; bottom: 0px; }

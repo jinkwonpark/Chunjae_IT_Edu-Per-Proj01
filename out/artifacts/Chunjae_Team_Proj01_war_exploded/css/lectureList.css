@@ -57,7 +57,7 @@ a {
     line-height: 45px;
     border-radius: 10px;
     border: none;
-    background-color: #8CB964;
+    background-color: #81b2d5;
     color: #fff;
     transition: 0.3s;
 }
@@ -167,8 +167,8 @@ a {
 }
 
 .board_page a.num.on {
-    border-color: #8CB964;
-    background: #8CB964;
+    border-color: #81b2d5;
+    background: #81b2d5;
     color: #fff;
 }
 

@@ -126,7 +126,7 @@
         .breadcrumb a { color:#fff; }
 
         .box_myboard { display : block; margin-bottom: 20px; text-align :center;}
-        .btn_myboard {padding-right : 20px; padding-left :20px;  background-color: yellowgreen; color:#fff;
+        .btn_myboard {padding-right : 20px; padding-left :20px;  background-color: #32c8cd; color:#fff;
             border-radius:100px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
             line-height:50px; font-size:15px; text-align: center;}
         #btn_mb1 {background-color: gray;}

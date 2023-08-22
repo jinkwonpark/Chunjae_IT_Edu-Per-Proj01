@@ -70,7 +70,7 @@
         .lecture_header {
             width: 100%;
             height: 60px;
-            background-color: #8CB964;
+            background-color: #81b2d5;
             color: #fff;
         }
 
@@ -84,12 +84,12 @@
         .lecture_header div:first-child {
             width: 150px;
             text-align: center;
-            background-color: #80B153;
+            background-color: #81b2d5;
             cursor: pointer;
             transition: 0.3s;
         }
         .lecture_header div:first-child:hover {
-            background-color: #6F9C46;
+            background-color: #81b2d5;
         }
         .lecture_header div:last-child {
             margin-left: 30px;

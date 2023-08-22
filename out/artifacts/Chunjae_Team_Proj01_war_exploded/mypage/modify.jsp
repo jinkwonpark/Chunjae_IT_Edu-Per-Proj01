@@ -98,7 +98,7 @@
         .tb1 tr td:last-child {text-align: right;}
 
         .tb1 tr td .submit_btn {width: 200px;height: 100%;border-radius: 30px;margin-top: 20px;
-            background-color: #8CB964;border: #8CB964;color: #fff;font-weight: bold;}
+            background-color: #81b2d5;border: #81b2d5;color: #fff;font-weight: bold;}
     </style>
 
     <link rel="stylesheet" href="<%=path6 %>/css/footer.css">

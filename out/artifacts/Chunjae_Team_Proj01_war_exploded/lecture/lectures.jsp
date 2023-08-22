@@ -125,8 +125,8 @@
         }
         .btn {
             margin-top: 10px;
-            background-color: #8CB964;
-            border-color: #8CB964;
+            background-color: #81b2d5;
+            border-color: #81b2d5;
 
         }
         .card-img-top {

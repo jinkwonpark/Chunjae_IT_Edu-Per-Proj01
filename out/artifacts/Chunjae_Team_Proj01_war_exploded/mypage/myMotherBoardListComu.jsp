@@ -127,7 +127,7 @@
         .btn_myboard {padding-right : 20px; padding-left :20px;  background-color: gray; color:#fff;
             border-radius:100px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
             line-height:50px; font-size:15px; text-align: center;}
-        #btn_mb1 {background-color: yellowgreen;}
+        #btn_mb1 {background-color: #32c8cd;}
     </style>
 
     <link rel="stylesheet" href="<%=path20 %>/css/footer.css">

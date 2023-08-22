@@ -46,15 +46,15 @@
             border-top:1px solid #333; border-bottom:1px solid #333;
             background-color:deepskyblue; color:#fff; }
         .tb1 td { width:650px; line-height:32px; padding-top:8px; padding-bottom:8px;
-            border-bottom:1px solid #8CB964;
-            padding-left: 14px; border-top:1px solid #8CB964; }
+            border-bottom:1px solid #81b2d5;
+            padding-left: 14px; border-top:1px solid #81b2d5; }
 
         .indata { display:inline-block; width:600px; height: 48px; line-height: 48px;
             padding:14px; font-size:18px; }
         .indata2 { width: 600px; padding: 14px; font-size:18px; }
         .inbtn { display:block;  border-radius:100px;
             min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #8CB964; color:#fff; font-size: 18px; }
+            line-height: 48px; background-color: #81b2d5; color:#fff; font-size: 18px; }
         .inbtn:first-child { float:left; }
         .inbtn:last-child { float:right; }
         .search_wrap {
@@ -116,7 +116,7 @@
                         });
                         // 마커가 지도 위에 표시되도록 설정합니다
                         marker.setMap(map);
-                        var iwContent = '<div style="padding:5px;">천재 IT교육센터 본원<br><a href="" style="color:blue" target="_blank"></a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+                        var iwContent = '<div style="padding:5px;">웨일 IT교육센터 본원<br><a href="" style="color:blue" target="_blank"></a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
                             iwPosition = new daum.maps.LatLng(37.4676446,126.8876698); //인포윈도우 표시 위치입니다
                         // 인포윈도우를 생성합니다
                         var infowindow = new daum.maps.InfoWindow({
