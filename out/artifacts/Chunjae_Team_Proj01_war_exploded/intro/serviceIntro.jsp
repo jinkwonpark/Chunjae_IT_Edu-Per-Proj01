@@ -49,7 +49,7 @@
         #service_par { width:70px; height: 70px; position:absolute; top:309px; left:730px;}
 
         #pic_cont3 { display: block; margin-left:400px; padding-top:100px; }
-        #pic_a1 { text-decoration: none; color : #636262; background-color: burlywood; font-size:25px; border-radius: 80px;
+        #pic_a1 { text-decoration: none; color : #636262; background-color: #81b2d5; font-size:25px; border-radius: 80px;
             padding-left:100px; padding-right: 100px; font-weight: bold; padding-top:20px; padding-bottom: 20px;
             position: absolute; top:1000px; left:450px;}
     </style>

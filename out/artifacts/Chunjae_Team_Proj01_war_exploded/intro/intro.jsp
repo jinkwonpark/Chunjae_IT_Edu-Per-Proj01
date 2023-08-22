@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>공지사항 글쓰기</title>
+    <title>회사 소개</title>
     <%@ include file="/setting/head.jsp" %>
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
@@ -40,134 +40,61 @@
             width:1200px; margin: 0 auto; text-align: right; color:#fff;
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
-        .frm { clear:both; width:1200px; margin:0 auto; padding-top: 80px; }
 
-        .tb1 { width:800px; margin:50px auto; }
-        .tb1 th { width:150px; line-height:32px; padding-top:8px; padding-bottom:8px;
-            border-top:1px solid #333; border-bottom:1px solid #333;
-            background-color:deepskyblue; color:#fff; }
-        .tb1 td { width:650px; line-height:32px; padding-top:8px; padding-bottom:8px;
-            border-bottom:1px solid #333;
-            padding-left: 14px; border-top:1px solid #333; }
-
-        .indata { display:inline-block; width:600px; height: 48px; line-height: 48px;
-            padding:14px; font-size:18px; }
-        .indata2 { width: 600px; padding: 14px; font-size:18px; }
-        .inbtn { display:block;  border-radius:100px;
-            min-width:140px; padding-left: 24px; padding-right: 24px; text-align: center;
-            line-height: 48px; background-color: #333; color:#fff; font-size: 18px; }
-        .inbtn:first-child { float:left; }
-        .inbtn:last-child { float:right; }
+        .text {
+            background: #f3f3f3;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            padding-right: 50px;
+            box-sizing: border-box;
+            display: block;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 1.41em;
+            color: #222;
+            margin: 50px 0 20px;
+        }
+        .img {background: url(/images/intro.jpg) no-repeat right top;
+            background-size: cover;
+            float: right;
+            height: 643.219px;
+        }
     </style>
 
     <link rel="stylesheet" href="<%=path5%>/css/footer.css">
-    <style>
-        .btn_group { clear:both; width:800px; margin:20px auto; }
-        .btn_group:after { content:""; display:block; width:100%; clear: both; }
-        .btn_group p {text-align: center;   line-height:3.6; }
-    </style>
 </head>
 <body>
-<div class="container">
+<div class="wrap">
     <header class="hd" id="hd">
         <%@ include file="/layout/header.jsp" %>
     </header>
-    <div class="sub_wrap">
-        <section class="sub_sec" id="sub01">
-            <div class="sub_con">
-                <div class="sub_title_wrap">
-                    <h2>
-                        <b>CornEdu</b>
-                    </h2>
-                </div>
-                <div class="sub01_pt_wrap">
-                    <div class="sub01_pt pt_lt">
-                        <div class="sub01_pt_txt_in">
-                            <h3>
-                                Give daily pleasure through EDU<br/> <strong>보다 나은 교육의
-                                <span>첫걸음</span>
-                                <br>
-                                <br>
-
-                            </strong>
-                                <strong>그 길을 CornEDU와 함께 하겠습니다!</strong>
-                            </h3>
-                            <div class="sub01_dia">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        </div>
+    <div class="contents" id="contents">
+        <div class="content_header">
+            <div class="breadcrumb">
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">소개</a> &gt; <span> 회사소개 </span> </p>
+                <h2 class="page_tit"> 회사 소개 </h2>
+            </div>
+        </div>
+        <section class="page" id="page1">
+            <div class="page_wrap">
+                <div class="text" style="width: 50%; float: left; padding-left: 120px;">
+                    <h1><strong>WHALE EDUCATION</strong></h1>
+                    <br>
+                    <div class="intro">
+                        <p>바다처럼 깊은 지식으로</p>
+                        <p>세상을 탐험하고,</p>
+                        <p>고래처럼 넓은 시야로</p>
+                        <p>미래를 펼쳐보세요.</p>
+                        <p>'WHALE EDUCATION'은</p>
+                        <p>무한한 가능성을 위한</p>
+                        <p>여정을 함께 합니다.</p>
+                        <p>지식의 바다에서</p>
+                        <p>우리와 함께 성장하세요.</p>
                     </div>
                 </div>
+                <div class="img" style="width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top; background-size: cover; height: 643.219px; margin-top: 50px;"></div>
             </div>
         </section>
-    </div>
-    <section class="sub_sec" id="sub02">
-        <div class="sub_con">
-            <div class="sub02_title_wrap">
-                <h2>CornEdu의 비전</h2>
-            </div>
-            <div class="sub02_pt_wrap">
-                <div class="sub02_pt pt01">
-                    <h3>VISON 01</h3>
-                    <h4>혁신</h4>
-                    <p>
-                        혁신적이고 <span>새로운 방식의</span><br>교육 환경을 제공
-                    </p>
-                </div>
-                <br>
-                <br>
-                <div class="sub02_pt pt02">
-                    <h3>VISION 02</h3>
-                    <h4>지속가능</h4>
-                    <p>
-                        앞으로의 미래세대를 <span>위해 </span>지속 가능한 교육을 목표
-                    </p>
-                </div>
-                <br>
-                <br>
-                <div class="sub02_pt pt03">
-                    <h3>VISION 03</h3>
-                    <h4>글로벌</h4>
-                    <p>
-                        글로벌 인재로써 <span>성장 가능성을 넓히는 </span>글로벌 인재 양성
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="sub_sec" id="sub03">
-        <div class="sub_con">
-            <div class="sub_title_wrap">
-                <h2>회사개요</h2>
-            </div>
-            <div class="sub03_pt_up">
-                <div class="sub03_pt_lf">
-                    <div class="sub03_img_box"></div>
-                    <span>FUTRURE INNOVATED, INNOVATION <strong>REALIZED</strong></span>
-                </div>
-                <div class="sub03_pt_rt">
-                    <div class="sub03_txt">
-                        <h3>CornEdu는</h3>
-                        <p>혁신적인 CornEdu만의 교육 경험과 지속 가능한 교육을 통해 학생들에게 삶의 풍요로움을 더하는 교육 서비스를 제공합니다.</p>
-                    </div>
-                </div>
-                <!--.sub03_pt_rt-->
-            </div>
-            <div class="sub03_pt_low">
-                <div class="sub03_pt_box">
-                    <p class="sub03_pt">
-                        <span class="pt_title">소재지</span> <span class="pt_txt">서울특별시 금천구 가산동 마리오아울렛 2관 사무동 11층</span>
-                    </p>
-                    <p class="sub03_pt">
-                        <span class="pt_title">연락처</span> <span class="pt_txt">Tel.
-								080-1234-5678/ Fax. 080-1234-5678</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
     <footer class="ft" id="ft">
         <%@ include file="/layout/footer.jsp" %>
