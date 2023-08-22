@@ -1,9 +1,9 @@
-CREATE DATABASE whaleedu;
+CREATE DATABASE edu;
 
 -- 윈도우 노트북 안될 때 사용
-ALTER DATABASE whaleedu DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+ALTER DATABASE edu DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE whaleedu;
+USE edu;
 
 -- per에는 관리자, 학생, 학부모만 INSERT 가능
 CREATE TABLE member(
