@@ -291,6 +291,10 @@ INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다2', '답�
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다3', '답변입니다3');
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다4', '답변입니다4');
 INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다5', '답변입니다5');
+INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다6', '답변입니다6');
+INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다7', '답변입니다7');
+INSERT INTO faq(question, answer) VALUES('자주 묻는 질문입니다8', '답변입니다8');
+s
 
 COMMIT;
 

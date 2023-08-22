@@ -6,13 +6,14 @@
             <li class="item1 active">
                 <input type="radio" name="vs_ra" id="vs_ra1" class="vs_ra" checked>
                 <div class="bg_box"></div>
-                <h2 class="vs_tit">학생들의 미래를 위한 교육<br>
-                    콘에듀</h2>
+                <h2 class="vs_tit"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whale</strong><br>
+                    <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Education</strong></h2>
             </li>
             <li class="item2">
                 <input type="radio" name="vs_ra" id="vs_ra2" class="vs_ra" checked>
                 <div class="bg_box"></div>
-                <h2 class="vs_tit">최고의 교육을 경험하세요</h2>
+                <h2 class="vs_tit">고래처럼 거대한 가능성,<br>
+                    <strong>바다처럼 광활한 세상을 열어주는 교육</strong></h2>
             </li>
             <ul class="btn_box">
                 <li class="item1 active"><label for="vs_ra1" class="vs_btn"></label></li> &nbsp;&nbsp;
