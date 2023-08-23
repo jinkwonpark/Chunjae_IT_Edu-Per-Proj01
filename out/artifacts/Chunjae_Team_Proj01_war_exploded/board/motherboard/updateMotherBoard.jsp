@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
+<%
+    String path5 = request.getContextPath();
+%>
 <%-- 1. 필요한 라이브러리 가져오기 --%>
 <%@ page import="java.sql.*" %>
 <%@ page import="com.chunjae_pro01.dto.*" %>
 <%@ page import="com.chunjae_pro01.util.DBC" %>
 <%@ page import="com.chunjae_pro01.util.MariaDBCon" %>
-<%
-    String path5 = request.getContextPath();
-%>
 <%
     Connection con = null;
     PreparedStatement pstmt = null;
@@ -41,7 +41,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>공지사항 수정하기</title>
+    <title>학부모 커뮤니티 수정하기</title>
 
     <%@ include file="/setting/head.jsp" %>
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
@@ -112,13 +112,12 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path5 %>">Home</a> &gt; <span> 학부모 커뮤니티 </span> </p>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">학부모 커뮤니티</a> &gt; <span> 학부모 커뮤니티 수정하기 </span> </p>
                 <h2 class="page_tit"> 학부모 커뮤니티 </h2>
             </div>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">공지사항 수정하기</h2>
                 <hr>
                 <!-- 5. Board 객체의 내용을 폼의 각 컨트롤(input/textarea)에 바인딩하여 출력 -->
                 <form action="updateMotherBoardPro.jsp" method="post">

@@ -41,7 +41,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>공지사항 수정하기</title>
+    <title>학생 커뮤니티 수정하기</title>
     <%@ include file="/setting/head.jsp" %>
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" rel="stylesheet">
@@ -112,13 +112,12 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path %>">Home</a> &gt; <span> 학생 커뮤니티 </span> </p>
-                <h2 class="page_tit"> 학생 커뮤니티 상세보기 </h2>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">학생 커뮤니티</a> &gt; <span> 학생 커뮤니티 수정하기 </span> </p>
+                <h2 class="page_tit"> 학생 커뮤니티 </h2>
             </div>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <h2 class="page_tit">공지사항 수정하기</h2>
                 <hr>
                 <!-- 5. Board 객체의 내용을 폼의 각 컨트롤(input/textarea)에 바인딩하여 출력 -->
                 <form action="updateStudentBoardPro.jsp" method="post">

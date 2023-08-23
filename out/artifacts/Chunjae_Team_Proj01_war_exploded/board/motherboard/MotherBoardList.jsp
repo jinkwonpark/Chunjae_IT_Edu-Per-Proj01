@@ -155,7 +155,7 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path5 %>">Home</a> &gt; <span> 학부모 커뮤니티 </span> </p>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">커뮤니티</a> &gt; <span> 학부모 커뮤니티 </span> </p>
                 <h2 class="page_tit"> 학부모 커뮤니티  </h2>
             </div>
         </div>
