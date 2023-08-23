@@ -21,7 +21,7 @@
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="<%=path5%>/css/common.css">
     <link rel="stylesheet" href="<%=path5%>/css/header.css">
-    <link rel="stylesheet" href="<%=path5%>/css/intro.css">
+
     <style>
         /* 본문 영역 스타일 */
         .contents { clear:both; min-height:100vh;
@@ -42,10 +42,13 @@
         .breadcrumb a { color:#fff; }
 
         .text {
+            width: 50%;
+            float: left;
             background: #f3f3f3;
             padding-top: 120px;
             padding-bottom: 120px;
             padding-right: 50px;
+            padding-left: 120px;
             box-sizing: border-box;
             display: block;
             font-size: 26px;
@@ -54,10 +57,8 @@
             color: #222;
             margin: 50px 0 20px;
         }
-        .img {background: url(/images/intro.jpg) no-repeat right top;
-            background-size: cover;
-            float: right;
-            height: 643.219px;
+        .img {width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top;
+            background-size: cover; height: 643.219px; margin-top: 50px;
         }
     </style>
 
@@ -71,14 +72,14 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">소개</a> &gt; <span> 회사소개 </span> </p>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">소개</a> &gt; <span> 회사 소개 </span> </p>
                 <h2 class="page_tit"> 회사 소개 </h2>
             </div>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <div class="text" style="width: 50%; float: left; padding-left: 120px;">
-                    <h1><strong>WHALE EDUCATION</strong></h1>
+                <div class="text">
+                    <h1><b>WHALE EDUCATION</b></h1>
                     <br>
                     <div class="intro">
                         <p>바다처럼 깊은 지식으로</p>
@@ -92,7 +93,7 @@
                         <p>우리와 함께 성장하세요.</p>
                     </div>
                 </div>
-                <div class="img" style="width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top; background-size: cover; height: 643.219px; margin-top: 50px;"></div>
+                <div class="img"></div>
             </div>
         </section>
 </div>
