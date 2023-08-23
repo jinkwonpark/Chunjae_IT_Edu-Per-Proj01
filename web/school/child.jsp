@@ -41,25 +41,24 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
+        .img { background: url(/images/intro.jpg) no-repeat right top;
+            background-size: cover; height: 600px; margin-top: 50px;
+        }
+
         .text {
-            width: 50%;
-            float: left;
             background: #f3f3f3;
-            padding-top: 120px;
-            padding-bottom: 120px;
+            padding-top: 30px;
+            padding-bottom: 50px;
             padding-right: 50px;
-            padding-left: 120px;
+            padding-left: 50px;
             box-sizing: border-box;
             display: block;
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 300;
             line-height: 1.41em;
             color: #222;
-            margin: 50px 0 20px;
         }
-        .img {width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top;
-            background-size: cover; height: 643.219px; margin-top: 50px;
-        }
+
     </style>
 
     <link rel="stylesheet" href="<%=path5%>/css/footer.css">
@@ -78,22 +77,19 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <div class="img"></div>
                 <div class="text">
-                    <h1><b>WHALE EDUCATION</b></h1>
+                    <h1><b>유 아 - 웨일은 배움의 시작을 함께합니다.</b></h1>
                     <br>
                     <div class="intro">
-                        <p>바다처럼 깊은 지식으로</p>
-                        <p>세상을 탐험하고,</p>
-                        <p>고래처럼 넓은 시야로</p>
-                        <p>미래를 펼쳐보세요.</p>
-                        <p>'WHALE EDUCATION'은</p>
-                        <p>무한한 가능성을 위한</p>
-                        <p>여정을 함께 합니다.</p>
-                        <p>지식의 바다에서</p>
-                        <p>우리와 함께 성장하세요.</p>
+                        <p>우리 아이 생애 첫 선생님인 유치원∙어린이 집 선생님과 첫 교육 과정인 누리과정을 적극 지원하며</p>
+                        <p>유아들이 스스로 의문을 품고 탐구할 수 있도록 도와줍니다.</p>
+                        <p>또한 유아들의 언어 발달을 자극하고 호기심을 채워 스마트러닝 환경에서</p>
+                        <p>아이들과 선생님이 소통하면서 재미있게 놀이하듯 언어 감각을 키워갑니다.</p>
+                        <p></p>
+
                     </div>
                 </div>
-                <div class="img"></div>
             </div>
         </section>
     </div>
