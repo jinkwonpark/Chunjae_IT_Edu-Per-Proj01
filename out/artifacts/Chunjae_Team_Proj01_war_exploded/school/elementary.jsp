@@ -38,8 +38,9 @@
 
         .content_tit {
             font-weight: bold;
-            font-size: 25px;
+            font-size: 28px;
             margin: 50px 30px 30px 10px;
+            text-align: center;
         }
 
         .breadcrumb { clear:both;
