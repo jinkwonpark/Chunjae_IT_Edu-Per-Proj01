@@ -28,8 +28,8 @@
     <!-- 메뉴 링크 부분 link.jsp -->
     <%@ include file="/content/link.jsp"%>
 
-    <!--추천 강의 목록 lecture.jsp -->
-    <%@include file="/content/lecture.jsp" %>
+    <!--추천 강의 목록 social.jsp -->
+    <%@include file="/content/social.jsp" %>
 
     <!--공지사항, 이벤트 게시판 board.jsp-->
     <%@ include file="/content/board.jsp" %>

@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
 <style>
-    <!--추천 강의 목록 스타일 -->
+    <!--사회 공헌 목록 스타일 -->
     .box_tit { text-align: center; padding : 10px; margin-top:20px; margin-bottom : 20px;}
     .box_group { width: 992px; height : 250px; margin: 20px auto; }
     .box { float:left; display : block; width : 228px; height: 320px; margin : 10px; padding: 10px; transition: 0.3s; border: 1px solid #ddd; box-sizing: border-box; }

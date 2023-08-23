@@ -38,9 +38,9 @@
             <li class="item2">
                 <a href="" class="dp1"> 학교 공부 </a>
                 <ul class="sub">
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=초등"> 초등 </a></li>
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=중등"> 중등 </a></li>
-                    <li><a href="<%=path8%>/lecture/lectures.jsp?target=고등"> 고등 </a></li>
+                    <li><a href="<%=path8%>/school/child.jsp"> 유아 </a></li>
+                    <li><a href="<%=path8%>/school/elementary.jsp"> 초등 </a></li>
+                    <li><a href="<%=path8%>/school/middlehigh.jsp"> 중고등 </a></li>
                 </ul>
             </li>
             <li class="item3">
