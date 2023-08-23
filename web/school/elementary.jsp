@@ -36,6 +36,12 @@
         .page_tit { font-size:48px; text-align: center; padding-top:1em; color:#fff;
             padding-bottom: 2.4rem; }
 
+        .content_tit {
+            font-weight: bold;
+            font-size: 25px;
+            margin: 50px 30px 30px 10px;
+        }
+
         .breadcrumb { clear:both;
             width:1200px; margin: 0 auto; text-align: right; color:#fff;
             padding-top: 28px; padding-bottom: 28px; }
@@ -77,16 +83,13 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <p class="content_tit">초등 - 웨일에듀는 학교로 내딛는 첫 걸음을 응원합니다.</p>
                 <div class="img"></div>
                 <div class="text">
-                    <h1><b>초등 - 웨일은 학교로 내딛는 첫 걸음을 응원합니다.</b></h1>
-                    <br>
-                    <div class="elementary">
-                        <p>첫 공부 습관을 들이는 초등학생들이 스스로 공부하는 힘을 키울 수 있도록 도와주며</p>
-                        <p>중고등학생이 되어도 흔들리지 않을 튼튼한 실력을 키워줍니다.</p>
-                        <p>학교 안과 밖에서 친구처럼 다정하고 재미있는 맞춤형 스토리텔링 학습을 통해</p>
-                        <p>미래 스마트 교육 환경을 만들어갑니다.</p>
-                    </div>
+                    <p>첫 공부 습관을 들이는 초등학생들이 스스로 공부하는 힘을 키울 수 있도록 도와주며</p>
+                    <p>중고등학생이 되어도 흔들리지 않을 튼튼한 실력을 키워줍니다.</p>
+                    <p>학교 안과 밖에서 친구처럼 다정하고 재미있는 맞춤형 스토리텔링 학습을 통해</p>
+                    <p>미래 스마트 교육 환경을 만들어갑니다.</p>
                 </div>
             </div>
         </section>

@@ -36,6 +36,12 @@
         .page_tit { font-size:48px; text-align: center; padding-top:1em; color:#fff;
             padding-bottom: 2.4rem; }
 
+        .content_tit {
+            font-weight: bold;
+            font-size: 25px;
+            margin: 50px 30px 30px 10px;
+        }
+
         .breadcrumb { clear:both;
             width:1200px; margin: 0 auto; text-align: right; color:#fff;
             padding-top: 28px; padding-bottom: 28px; }
@@ -77,16 +83,13 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <p class="content_tit">유아 - 웨일에듀는 배움의 시작을 함께합니다.</p>
                 <div class="img"></div>
                 <div class="text">
-                    <h1><b>유 아 - 웨일은 배움의 시작을 함께합니다.</b></h1>
-                    <br>
-                    <div class="child">
-                        <p>우리 아이 생애 첫 선생님인 유치원∙어린이 집 선생님과 첫 교육 과정인 누리과정을 적극 지원하며</p>
-                        <p>유아들이 스스로 의문을 품고 탐구할 수 있도록 도와줍니다.</p>
-                        <p>또한 유아들의 언어 발달을 자극하고 호기심을 채워 스마트러닝 환경에서</p>
-                        <p>아이들과 선생님이 소통하면서 재미있게 놀이하듯 언어 감각을 키워갑니다.</p>
-                    </div>
+                    <p>우리 아이 생애 첫 선생님인 유치원∙어린이 집 선생님과 첫 교육 과정인 누리과정을 적극 지원하며</p>
+                    <p>유아들이 스스로 의문을 품고 탐구할 수 있도록 도와줍니다.</p>
+                    <p>또한 유아들의 언어 발달을 자극하고 호기심을 채워 스마트러닝 환경에서</p>
+                    <p>아이들과 선생님이 소통하면서 재미있게 놀이하듯 언어 감각을 키워갑니다.</p>
                 </div>
             </div>
         </section>
