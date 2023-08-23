@@ -41,7 +41,7 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
-        .img { background: url(/images/intro.jpg) no-repeat right top;
+        .img { background: url(/images/child.jpg) no-repeat right top;
             background-size: cover; height: 600px; margin-top: 50px;
         }
 
@@ -81,13 +81,11 @@
                 <div class="text">
                     <h1><b>유 아 - 웨일은 배움의 시작을 함께합니다.</b></h1>
                     <br>
-                    <div class="intro">
+                    <div class="child">
                         <p>우리 아이 생애 첫 선생님인 유치원∙어린이 집 선생님과 첫 교육 과정인 누리과정을 적극 지원하며</p>
                         <p>유아들이 스스로 의문을 품고 탐구할 수 있도록 도와줍니다.</p>
                         <p>또한 유아들의 언어 발달을 자극하고 호기심을 채워 스마트러닝 환경에서</p>
                         <p>아이들과 선생님이 소통하면서 재미있게 놀이하듯 언어 감각을 키워갑니다.</p>
-                        <p></p>
-
                     </div>
                 </div>
             </div>

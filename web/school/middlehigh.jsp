@@ -41,25 +41,24 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
+        .img { background: url(/images/child.jpg) no-repeat right top;
+            background-size: cover; height: 600px; margin-top: 50px;
+        }
+
         .text {
-            width: 50%;
-            float: left;
             background: #f3f3f3;
-            padding-top: 120px;
-            padding-bottom: 120px;
+            padding-top: 30px;
+            padding-bottom: 50px;
             padding-right: 50px;
-            padding-left: 120px;
+            padding-left: 50px;
             box-sizing: border-box;
             display: block;
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 300;
             line-height: 1.41em;
             color: #222;
-            margin: 50px 0 20px;
         }
-        .img {width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top;
-            background-size: cover; height: 643.219px; margin-top: 50px;
-        }
+
     </style>
 
     <link rel="stylesheet" href="<%=path5%>/css/footer.css">
@@ -78,22 +77,17 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <div class="img"></div>
                 <div class="text">
-                    <h1><b>WHALE EDUCATION</b></h1>
+                    <h1><b>중고등 - 웨일은 꿈을 찾고 이루는 과정을 돕습니다.</b></h1>
                     <br>
-                    <div class="intro">
-                        <p>바다처럼 깊은 지식으로</p>
-                        <p>세상을 탐험하고,</p>
-                        <p>고래처럼 넓은 시야로</p>
-                        <p>미래를 펼쳐보세요.</p>
-                        <p>'WHALE EDUCATION'은</p>
-                        <p>무한한 가능성을 위한</p>
-                        <p>여정을 함께 합니다.</p>
-                        <p>지식의 바다에서</p>
-                        <p>우리와 함께 성장하세요.</p>
+                    <div class="middlehigh">
+                        <p>꿈을 찾고 이루는 모두가 그 꿈에 날개를 달고 더 멀리, 더 높이 날 수 있도록</p>
+                        <p>강점은 더욱 강하게, 부족한 부분은 맞춤 학습으로 채워줍니다.</p>
+                        <p>일방적 강의식 수업이 아닌 오직 나만을 위한 1:1 맞춤 수업이 언제 어디서든 가능하게 도와줍니다.</p>
+                        <p>종이 책에서부터 디지털 미디어까지 중고등학생들의 내신을 다지고 수능을 위한 만반의 준비를 함께합니다.</p>
                     </div>
                 </div>
-                <div class="img"></div>
             </div>
         </section>
     </div>

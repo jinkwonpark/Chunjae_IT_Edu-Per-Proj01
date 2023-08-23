@@ -41,25 +41,24 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
+        .img { background: url(/images/elementary.jpg) no-repeat right top;
+            background-size: cover; height: 600px; margin-top: 50px;
+        }
+
         .text {
-            width: 50%;
-            float: left;
             background: #f3f3f3;
-            padding-top: 120px;
-            padding-bottom: 120px;
+            padding-top: 30px;
+            padding-bottom: 50px;
             padding-right: 50px;
-            padding-left: 120px;
+            padding-left: 50px;
             box-sizing: border-box;
             display: block;
-            font-size: 26px;
+            font-size: 20px;
             font-weight: 300;
             line-height: 1.41em;
             color: #222;
-            margin: 50px 0 20px;
         }
-        .img {width: 50%; float: left; background: url(/images/intro.jpg) no-repeat right top;
-            background-size: cover; height: 643.219px; margin-top: 50px;
-        }
+
     </style>
 
     <link rel="stylesheet" href="<%=path5%>/css/footer.css">
@@ -78,22 +77,17 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <div class="img"></div>
                 <div class="text">
-                    <h1><b>WHALE EDUCATION</b></h1>
+                    <h1><b>초등 - 웨일은 학교로 내딛는 첫 걸음을 응원합니다.</b></h1>
                     <br>
-                    <div class="intro">
-                        <p>바다처럼 깊은 지식으로</p>
-                        <p>세상을 탐험하고,</p>
-                        <p>고래처럼 넓은 시야로</p>
-                        <p>미래를 펼쳐보세요.</p>
-                        <p>'WHALE EDUCATION'은</p>
-                        <p>무한한 가능성을 위한</p>
-                        <p>여정을 함께 합니다.</p>
-                        <p>지식의 바다에서</p>
-                        <p>우리와 함께 성장하세요.</p>
+                    <div class="elementary">
+                        <p>첫 공부 습관을 들이는 초등학생들이 스스로 공부하는 힘을 키울 수 있도록 도와주며</p>
+                        <p>중고등학생이 되어도 흔들리지 않을 튼튼한 실력을 키워줍니다.</p>
+                        <p>학교 안과 밖에서 친구처럼 다정하고 재미있는 맞춤형 스토리텔링 학습을 통해</p>
+                        <p>미래 스마트 교육 환경을 만들어갑니다.</p>
                     </div>
                 </div>
-                <div class="img"></div>
             </div>
         </section>
     </div>
