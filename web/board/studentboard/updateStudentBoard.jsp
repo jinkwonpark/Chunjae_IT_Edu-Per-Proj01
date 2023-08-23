@@ -118,6 +118,7 @@
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <p class="content_tit"> 학생 커뮤니티 글수정</p>
                 <hr>
                 <!-- 5. Board 객체의 내용을 폼의 각 컨트롤(input/textarea)에 바인딩하여 출력 -->
                 <form action="updateStudentBoardPro.jsp" method="post">

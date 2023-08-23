@@ -80,6 +80,12 @@
         .page_tit { font-size:48px; text-align: center; padding-top:1em; color:#fff;
             padding-bottom: 2.4rem; }
 
+        .content_tit {
+            font-weight: bold;
+            font-size: 25px;
+            margin: 80px 30px 30px 10px;
+        }
+
         .breadcrumb { clear:both;
             width:1200px; margin: 0 auto; text-align: right; color:#fff;
             padding-top: 28px; padding-bottom: 28px; }
@@ -124,6 +130,7 @@
     </div>
         <section class="page" id="page1">
             <div class="page_wrap">
+                <p class="content_tit"> 공지사항 글수정</p>
                 <hr>
                 <!-- 5. Board 객체의 내용을 폼의 각 컨트롤(input/textarea)에 바인딩하여 출력 -->
                 <form action="updateBoardPro.jsp" method="post">
