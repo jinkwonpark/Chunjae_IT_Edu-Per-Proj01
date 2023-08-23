@@ -41,7 +41,7 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
-        .img { background: url(/images/child.jpg) no-repeat right top;
+        .img { background: url(/images/middlehigh.jpg) no-repeat right top;
             background-size: cover; height: 600px; margin-top: 50px;
         }
 
