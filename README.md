@@ -328,16 +328,16 @@
 <table>
   <tr>
     <td align="center">
-     <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/4e3fb913-4b5c-4820-aea6-af403a87e6e0">
+     <img width="1300" alt="first" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/c2ffc992-c6cd-48ee-ab5b-9015160d7bf4">
 <br/>
       <sub><b> PIC1 : 공지사항 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/132269367/03b77f05-6d4a-41b4-9bc9-a38620a6a8a4">
+      <img width="1300" alt="first" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/9eaaac6b-c9b4-4344-84f9-8aa9b10c7f17">
 <br/>
-      <sub><b> PIC2 : qna </sub></b>
+      <sub><b> PIC2 : QnA </sub></b>
     </td>
   </tr>
 </table>
@@ -351,7 +351,7 @@
 <table>
   <tr>
     <td align="center">
-     <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/132269367/2a360242-1bdc-49c7-b443-5e51c172037d">  
+     <img width="1300" alt="first" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/97e46fa5-844e-49e4-b2ad-d6b8277ade7d">  
 <br/>
       <sub><b> PIC1 : FAQ 게시판 </sub></b>
     </td>
@@ -359,38 +359,6 @@
 </table>
 <br>
 
-
-## 🗂온라인 강의
-### 1. 온라인 강의 목록
-#### (1) 초등학생, 중학생, 고등학생 온라인 강의 목록
-- mariaDB와 연동하여 초등학생, 중학생, 고등학생을 대상으로 한 온라인 강의 목록 출력
-#### (2) 강의 상세 보기
-- 화면 상단에는 사용자가 선택한 강의의 정보 출력
-- 화면 하단에는 선택한 강의의 동영상 목록이 10개씩 페이지로 묶여 페이징 처리되어 출력
-#### (3) 동영상 플레이어
-- 재생, 일시정지, 정지, 사운드 조절 기능이 포함된 동영상 플레이어 구현
-- 비로그인 시 접근 불가능
-#### 📷 View
-<table>
-  <tr>
-    <td align="center">
-     <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/70800414/005d9c84-c62f-43bc-9b46-cef15506de02"><br/>
-      <sub><b> PIC1 : 온라인 강의 목록 </sub></b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-     <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/70800414/ceea4ccf-7308-4892-8ebe-ba22f73adb31"><br/>
-      <sub><b> PIC2 : 강의 상세 보기 </sub></b>
-    </td>
-  </tr>  
-  <tr>
-    <td align="center">
-     <img width="1300" alt="first" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/70800414/e5af4c49-7b5d-458e-b9fd-6084a005a65e"><br/>
-      <sub><b> PIC3 : 동영상 플레이어 </sub></b>
-    </td>
-  </tr>
-</table>
 
 ## 🎬 콘에듀 시연영상
 
