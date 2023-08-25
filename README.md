@@ -104,7 +104,7 @@
 <br><br>
 
 ### 📂CLASS DIAGRAM
-![classdiagram](https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/70800414/33b93fe1-b4df-4c75-ba1e-f4a6ba262df3)
+![classdiagram](https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/9267e7f8-d01d-4e9b-91df-6e35c468753d)
 <br><br>
 
 # 📎기능 구현
