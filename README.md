@@ -287,26 +287,26 @@
 <table>
   <tr>
     <td align="center">
-      <img width="960" alt="stucomu1" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/68a64e68-a3d9-4cfe-9de8-a4da51a65c12"><br/>
+      <img width="960" alt="stucomu1" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/d22e679e-f59a-4d92-9819-dd2319c5c9ac"><br/>
       <sub><b> PIC1 : 커뮤니티 게시판 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img width="960" alt="stucomupage" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/79cd8f4a-e4a8-422d-bb28-e36b6201d9b5"><br/>
+      <img width="960" alt="stucomupage" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/d2f5ba19-0f99-4dad-b59b-1f391232b265"><br/>
       <sub><b> PIC2 : 게시판 상세 글 보기 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img width="960" alt="stucomuwrite" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/271195ef-6ffc-4ee3-b2b9-313d2e520237">
+      <img width="960" alt="stucomuwrite" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/0c094923-d3d3-467c-acb8-a97efe2721e7">
 <br/>
       <sub><b> PIC2 : 게시판 글 작성 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img width="960" alt="stucomumodify" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/6fc61200-9a05-477e-92ee-ff018cb5aba1"><br/>
+      <img width="960" alt="stucomumodify" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/7123c524-6e1a-47f0-b50b-3a2061569d30"><br/>
       <sub><b> PIC3 : 게시판 글 수정 </sub></b>
     </td>
   </tr>
