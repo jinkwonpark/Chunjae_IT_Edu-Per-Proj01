@@ -48,7 +48,7 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
-        .img { background: url(/images/elementary.jpg) no-repeat right top;
+        .img { background: url(/images/child.jpg) no-repeat right top;
             background-size: cover; height: 600px; margin-top: 50px;
         }
 
@@ -78,19 +78,19 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">학교 공부</a> &gt; <span> 초등 </span> </p>
-                <h2 class="page_tit"> 초 등 </h2>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">교육 목표</a> &gt; <span> 유아 </span> </p>
+                <h2 class="page_tit"> 유 아 </h2>
             </div>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <p class="content_tit">초등 - 웨일에듀는 학교로 내딛는 첫 걸음을 응원합니다.</p>
+                <p class="content_tit">유아 - 웨일에듀는 배움의 시작을 함께합니다.</p>
                 <div class="img"></div>
                 <div class="text">
-                    <p>첫 공부 습관을 들이는 초등학생들이 스스로 공부하는 힘을 키울 수 있도록 도와주며</p>
-                    <p>중고등학생이 되어도 흔들리지 않을 튼튼한 실력을 키워줍니다.</p>
-                    <p>학교 안과 밖에서 친구처럼 다정하고 재미있는 맞춤형 스토리텔링 학습을 통해</p>
-                    <p>미래 스마트 교육 환경을 만들어갑니다.</p>
+                    <p>우리 아이 생애 첫 선생님인 유치원∙어린이 집 선생님과 첫 교육 과정인 누리과정을 적극 지원하며</p>
+                    <p>유아들이 스스로 의문을 품고 탐구할 수 있도록 도와줍니다.</p>
+                    <p>또한 유아들의 언어 발달을 자극하고 호기심을 채워 스마트러닝 환경에서</p>
+                    <p>아이들과 선생님이 소통하면서 재미있게 놀이하듯 언어 감각을 키워갑니다.</p>
                 </div>
             </div>
         </section>

@@ -38,7 +38,7 @@
 
         .content_tit {
             font-weight: bold;
-            font-size: 25px;
+            font-size: 28px;
             margin: 50px 30px 30px 10px;
             text-align: center;
         }
@@ -48,7 +48,7 @@
             padding-top: 28px; padding-bottom: 28px; }
         .breadcrumb a { color:#fff; }
 
-        .img { background: url(/images/middlehigh.jpg) no-repeat right top;
+        .img { background: url(/images/elementary.jpg) no-repeat right top;
             background-size: cover; height: 600px; margin-top: 50px;
         }
 
@@ -78,19 +78,19 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">학교 공부</a> &gt; <span> 중고등 </span> </p>
-                <h2 class="page_tit"> 중고등 </h2>
+                <p><a href="<%=path %>/">Home</a> &gt; <a href="<%=path %>">교육 목표</a> &gt; <span> 초등 </span> </p>
+                <h2 class="page_tit"> 초 등 </h2>
             </div>
         </div>
         <section class="page" id="page1">
             <div class="page_wrap">
-                <p class="content_tit">중고등 - 웨일은 꿈을 찾고 이루는 과정을 돕습니다.</p>
+                <p class="content_tit">초등 - 웨일에듀는 학교로 내딛는 첫 걸음을 응원합니다.</p>
                 <div class="img"></div>
                 <div class="text">
-                    <p>꿈을 찾고 이루는 모두가 그 꿈에 날개를 달고 더 멀리, 더 높이 날 수 있도록</p>
-                    <p>강점은 더욱 강하게, 부족한 부분은 맞춤 학습으로 채워줍니다.</p>
-                    <p>일방적 강의식 수업이 아닌 오직 나만을 위한 1:1 맞춤 수업이 언제 어디서든 가능하게 도와줍니다.</p>
-                    <p>종이 책에서부터 디지털 미디어까지 중고등학생들의 내신을 다지고 수능을 위한 만반의 준비를 함께합니다.</p>
+                    <p>첫 공부 습관을 들이는 초등학생들이 스스로 공부하는 힘을 키울 수 있도록 도와주며</p>
+                    <p>중고등학생이 되어도 흔들리지 않을 튼튼한 실력을 키워줍니다.</p>
+                    <p>학교 안과 밖에서 친구처럼 다정하고 재미있는 맞춤형 스토리텔링 학습을 통해</p>
+                    <p>미래 스마트 교육 환경을 만들어갑니다.</p>
                 </div>
             </div>
         </section>
