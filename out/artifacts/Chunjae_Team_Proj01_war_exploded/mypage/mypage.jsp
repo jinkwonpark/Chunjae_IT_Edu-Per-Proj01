@@ -167,7 +167,7 @@
     <div class="contents" id="contents">
         <div class="content_header">
             <div class="breadcrumb">
-                <p><a href="/">Home</a> &gt; <span> 마이페이지 </span> </p>
+                <p><a href="<%=path %>/">Home</a> &gt; <span> 마이페이지 </span> </p>
                 <h2 class="page_tit"> 마이페이지 </h2>
             </div>
         </div>
