@@ -125,13 +125,13 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/139138265/63a4a308-9f0d-429c-bb17-9373f9f0bb23" width="1300" alt=""/> <br/>
+      <img src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/89df34e7-21a5-4ddb-9d0a-1c84491308e4" width="1300" alt=""/> <br/>
       <sub><b> PIC1 : 로그인 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/139138265/604e7a1a-9931-4027-add9-adc6695492fa" width="1300" alt=""/> <br/>
+      <img src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/ae2a844f-53af-4cee-8396-3fd9902c47a8" width="1300" alt=""/> <br/>
       <sub><b> PIC2 : 회원가입 </sub></b>
     </td>
   </tr>
