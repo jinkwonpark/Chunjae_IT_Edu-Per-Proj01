@@ -155,19 +155,19 @@
 <table>
   <tr>
     <td align="center">
-      <img width="1300" alt="2" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/76bc1238-7c6f-41ed-826b-3270a8b5842d"><br/>
+      <img width="1300" alt="2" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/877f3757-1b4b-44ea-b625-ab3fe3b45299"><br/>
       <sub><b> PIC1 : 마이페이지 </sub></b>
     </td>
   </tr>
   <tr>
     <td align="center">
-       <img width="1300" alt="ssss" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/2b42fdd1-9560-4c36-8bf4-b6b13f790882"><br/>
+       <img width="1300" alt="ssss" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/4b728c7b-ce6e-4975-8fdd-865aef7b0e98"><br/>
       <sub><b> PIC2 : 회원 정보 수정 </sub></b>
     </td>
   </tr>
     <tr>
     <td align="center">
-     <img width="960" alt="mypage1" src="https://github.com/ChunjaeFullStackJavaMaker/Chunjae_Team_Proj01/assets/138674233/f7cb9084-141c-4ba4-80ef-67c193666516">
+     <img width="960" alt="mypage1" src="https://github.com/jinkwonpark/Chunjae_IT_Edu-Per_Proj01/assets/132269367/f468c7ea-6359-4774-9fdc-c7c24c3fe7fc">
  <br/>
       <sub><b> PIC3 : 내가 쓴 글 </sub></b>
     </td>
