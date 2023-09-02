@@ -20,7 +20,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> 공지사항 </title>
+    <title> QnA </title>
     <%@ include file="/setting/head.jsp" %>
 
     <!-- 스타일 초기화 : reset.css 또는 normalize.css -->
@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="<%=path68%>/css/google.css">
     <!-- 필요한 플러그인 연결 -->
     <script src="https://code.jquery.com/jquery-latest.js"></script>
+    ../../c
+
     <link rel="stylesheet" href="<%=path68%>/css/common.css">
     <link rel="stylesheet" href="<%=path68%>/css/header.css">
     <link rel="stylesheet" href="<%=path68%>/css/content_header.css">
@@ -178,9 +180,9 @@
                             <div class="bno"> <%=qna.getQno()%> </div>
                             <% if(sid!=null) {
                                 if(qna.getLev()==0){%>
-                            <div class="qTitle" style="text-align : left;"> <a href="/cs/qna/getQna.jsp?qno=<%=qna.getQno() %>"><%=qna.getTitle() %></a> </div>
+                            <div class="qTitle" style="text-align : left;"> <a href="/qna/getQna.jsp?qno=<%=qna.getQno() %>"><%=qna.getTitle() %></a> </div>
                             <% }else{ %>
-                            <div class="qTitle" style="text-align : left;"> <a href="/cs/qna/getQna.jsp?qno=<%=qna.getQno() %>">⌞<%=qna.getTitle() %></a> </div>
+                            <div class="qTitle" style="text-align : left;"> <a href="/qna/getQna.jsp?qno=<%=qna.getQno() %>">⌞<%=qna.getTitle() %></a> </div>
                             <%}} else {
                                 if(qna.getLev()==0){%>
                             <div class="qTitle" style="text-align : left;"><%=qna.getTitle() %></div>
